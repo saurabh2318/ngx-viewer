@@ -105,21 +105,21 @@ a{
 	font-size: 20px !important;
 }
 
-::ng-deep .segment-type-string > .segment-main > .segment-boolean {
+::ng-deep .segment-type-boolean > .segment-main > .segment-key {
 	// margin-left: 8px !important;
 	font-family: "Roboto", "Segoe UI", "GeezaPro", "DejaVu Serif", "sans-serif", "-apple-system", "BlinkMacSystemFont";
 	font-size: 20px !important;
 }
 
-::ng-deep .segment-type-string > .segment-main > .segment-boolean {
+::ng-deep .segment-type-boolean > .segment-main > .segment-value {
 	// margin-left: 8px !important;
 	font-family: "Roboto", "Segoe UI", "GeezaPro", "DejaVu Serif", "sans-serif", "-apple-system", "BlinkMacSystemFont";
 	font-size: 20px !important;
 }
 
-::ng-deep .segment-type-array > .segment-main {
-	margin-bottom: 8px !important;
-}
+// ::ng-deep .segment-type-array > .segment-main {
+// 	margin-bottom: 8px !important;
+// }
 
 ::ng-deep .segment-type-array > .children > ngx-json-viewer > section.ngx-json-viewer {
 	animation: growDown 300ms ease-in-out forwards;
