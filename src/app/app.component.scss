@@ -70,8 +70,51 @@ a{
 }
 
 ::ng-deep .segment-type-array > .segment-main > .segment-key {
-	margin-left: 8px !important;
+	// margin-left: 8px !important;
 	font-family: "Roboto", "Segoe UI", "GeezaPro", "DejaVu Serif", "sans-serif", "-apple-system", "BlinkMacSystemFont";
+	font-size: 20px !important;
+}
+
+::ng-deep .segment-type-array > .segment-main > .segment-value {
+	// margin-left: 8px !important;
+	font-family: "Roboto", "Segoe UI", "GeezaPro", "DejaVu Serif", "sans-serif", "-apple-system", "BlinkMacSystemFont";
+	font-size: 20px !important;
+}
+
+::ng-deep .segment-type-object > .segment-main > .segment-key {
+	// margin-left: 8px !important;
+	font-family: "Roboto", "Segoe UI", "GeezaPro", "DejaVu Serif", "sans-serif", "-apple-system", "BlinkMacSystemFont";
+	font-size: 20px !important;
+}
+
+::ng-deep .segment-type-object > .segment-main > .segment-value {
+	// margin-left: 8px !important;
+	font-family: "Roboto", "Segoe UI", "GeezaPro", "DejaVu Serif", "sans-serif", "-apple-system", "BlinkMacSystemFont";
+	font-size: 20px !important;
+}
+
+::ng-deep .segment-type-string > .segment-main > .segment-key {
+	// margin-left: 8px !important;
+	font-family: "Roboto", "Segoe UI", "GeezaPro", "DejaVu Serif", "sans-serif", "-apple-system", "BlinkMacSystemFont";
+	font-size: 20px !important;
+}
+
+::ng-deep .segment-type-string > .segment-main > .segment-value {
+	// margin-left: 8px !important;
+	font-family: "Roboto", "Segoe UI", "GeezaPro", "DejaVu Serif", "sans-serif", "-apple-system", "BlinkMacSystemFont";
+	font-size: 20px !important;
+}
+
+::ng-deep .segment-type-string > .segment-main > .segment-boolean {
+	// margin-left: 8px !important;
+	font-family: "Roboto", "Segoe UI", "GeezaPro", "DejaVu Serif", "sans-serif", "-apple-system", "BlinkMacSystemFont";
+	font-size: 20px !important;
+}
+
+::ng-deep .segment-type-string > .segment-main > .segment-boolean {
+	// margin-left: 8px !important;
+	font-family: "Roboto", "Segoe UI", "GeezaPro", "DejaVu Serif", "sans-serif", "-apple-system", "BlinkMacSystemFont";
+	font-size: 20px !important;
 }
 
 ::ng-deep .segment-type-array > .segment-main {
