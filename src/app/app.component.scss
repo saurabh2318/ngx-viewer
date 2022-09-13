@@ -60,9 +60,61 @@ a{
 									   color-stop(0.86, rgb(28,58,148)));
 }
 
-.ngx-json-viewer .segment[_ngcontent-c94] .segment-main[_ngcontent-c94] .segment-key[_ngcontent-c94] {
-  color: black;
+::ng-deep .segment-type-string > .segment-main > .segment-value {
+	color: blue !important;
+	font-family: "Roboto", "Segoe UI", "GeezaPro", "DejaVu Serif", "sans-serif", "-apple-system", "BlinkMacSystemFont";
 }
 
+::ng-deep .segment-type-string > .segment-main.expandable > .segment-value {
+	display: none;
+}
 
+::ng-deep .segment-type-array > .segment-main > .segment-key {
+	margin-left: 8px !important;
+	font-family: "Roboto", "Segoe UI", "GeezaPro", "DejaVu Serif", "sans-serif", "-apple-system", "BlinkMacSystemFont";
+}
 
+::ng-deep .segment-type-array > .segment-main {
+	margin-bottom: 8px !important;
+}
+
+::ng-deep .segment-type-array > .children > ngx-json-viewer > section.ngx-json-viewer {
+	animation: growDown 300ms ease-in-out forwards;
+	transform-origin: top center
+}
+
+::ng-deep .segment-type-object > .children > ngx-json-viewer > section.ngx-json-viewer {
+	animation: growDown 300ms ease-in-out forwards;
+	transform-origin: top center
+}
+
+@keyframes growDown {
+	0% {
+			transform: scaleY(0)
+	}
+	80% {
+			transform: scaleY(1.1)
+	}
+	100% {
+			transform: scaleY(1)
+	}
+}
+
+// ::ng-deep .segment-type-array > .segment-main > div.toggler:after {
+// 	margin-right: 45px !important;
+// 	border: 5px solid blue;
+// 	content: url("https://www.computerhope.com/issues/pictures/google-drive-logo.png") !important;
+// 	width: 20px;
+// 	height: 20px;
+// 	padding: 8px;
+// }
+
+$midnight: #2c3e50;
+$clouds: #ecf0f1;
+::ng-deep .segment-type-array > .segment-main > div.toggler:after {
+  content: "\276F" !important;
+	width: 1em !important;
+	height: 1em !important;
+	text-align: center !important;
+	transition: all .35s !important;
+}
