@@ -164,3 +164,11 @@ $clouds: #ecf0f1;
 	text-align: center !important;
 	transition: all .35s !important;
 }
+
+::ng-deep .segment-type-object > .segment-main > div.toggler:after {
+  content: "\276F" !important;
+	width: 1em !important;
+	height: 1em !important;
+	text-align: center !important;
+	transition: all .35s !important;
+}
